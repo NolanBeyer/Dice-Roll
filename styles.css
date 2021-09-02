@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.dice {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dice__title {
+  width: 100%;
+  text-align: center;
+  background-color: #eee;
+  padding: 1rem 0;
+}
+
+.dice__trigger {
+  font-size: 16px;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+  border: none;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(34, 34, 34);
+}
+
+.dice__effect {
+  transition: 1s ease-in-out;
+}
